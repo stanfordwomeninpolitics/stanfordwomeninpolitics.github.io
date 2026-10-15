@@ -1,0 +1,1 @@
+document.addEventListener('click',e=>{const menu=document.querySelector('.nav-menu');if(menu&&!menu.contains(e.target))menu.open=false;});document.addEventListener('keydown',e=>{if(e.key==='Escape'){const menu=document.querySelector('.nav-menu');if(menu)menu.open=false;}});
